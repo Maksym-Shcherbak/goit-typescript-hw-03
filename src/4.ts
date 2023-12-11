@@ -10,10 +10,7 @@ class Key {
 }
 
 class Person {
-  constructor(private key: Key, public name: string) {
-    this.key = key;
-    this.name = name;
-  }
+  constructor(private key: Key, public name: string) {}
 
   getKey() {
     return this.key;
